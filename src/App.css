@@ -36,3 +36,96 @@
     transform: rotate(360deg);
   }
 }
+
+.todo {
+  display: flex;
+}
+
+.todo-text {
+  margin-right: 20px;
+}
+
+.completed,
+.remove,
+.add-todo {
+  cursor: pointer;
+}
+
+.true,
+.add-todo {
+  color: #4caf50;
+}
+
+.true:hover,
+.add-todo:hover {
+  color: #388e3c;
+}
+
+.add-todo {
+  margin-left: 20px;
+}
+
+.false {
+  color: #757575;
+}
+
+.false:hover {
+  color: #4caf50;
+}
+
+.remove:hover {
+  color: #dc004e;
+}
+
+.remove {
+  color: #e33371;
+}
+
+.block-add {
+  display: flex;
+  align-items: center;
+}
+
+.back {
+  color: #64b5f6;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.back:hover {
+  color: #1976d2;
+}
+
+.edit-todo {
+  display: flex;
+  align-items: center;
+}
+
+.edit {
+  color: #ffb74d;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.edit:hover {
+  color: #ff9800;
+}
+
+.block-title {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.next {
+  margin-left: 20px;
+}
+
+.back-icon {
+  margin-left: 20px;
+  color: #e57373
+}
+
+.back-icon:hover {
+  color: #d32f2f
+}
